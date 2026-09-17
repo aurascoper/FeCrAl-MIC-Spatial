@@ -28,6 +28,10 @@ empirical endpoint, not an assumption.
   experimental matrix (abiotic controls, surrogate-alloy method development,
   biofilm, full loop), measurement cadence, negative-control gates G1-G5,
   and endpoints, each anchored to verified literature verdicts (V1-V5).
+- `ARCHITECTURE.md` — the hybrid-model declaration (CPM canopy + PDE
+  microenvironment + phase-field substrate, with the CPM as the living
+  boundary condition for the pitting model) and the 4D VTI/PVD data-exchange
+  contract bridging the discrete and continuum communities.
 - The model layer (CPM canopy -> reaction-diffusion microenvironment ->
   moving-boundary depassivation -> computed radiolysis field) and the
   measurement pipeline (time-lapse CLSM, SECM/SVET/LEIS, white-light
